@@ -46,6 +46,24 @@ nav ul li a:hover {
     border-radius: 4px;
 }
 
+@media screen and (max-width: 768px) {
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        right: 0;
+        background: #1E1E1E;
+        width: 70%;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
 button {
     padding: 10px;
     background: #00ADB5;
@@ -134,7 +152,7 @@ section.active {
     max-width: 800px;
 }
 
-.about-text h3{
+.about-text h3 {
     text-align: center;
 }
 
@@ -188,7 +206,8 @@ table {
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-th, td {
+th,
+td {
     padding: 12px;
     text-align: center;
     border-bottom: 1px solid #333;
@@ -302,7 +321,7 @@ td {
     width: 100%;
     height: 100%;
     /* background: url("https://picsum.photos/2600/1600") no-repeat center center fixed; */
-    background: url("assets/videos/bg3.mp4") no-repeat center center/cover; 
+    background: url("assets/videos/bg3.mp4") no-repeat center center/cover;
     background-size: cover;
     opacity: 0.5;
     z-index: -1;
@@ -386,7 +405,8 @@ td {
     color: white;
     height: 100vh;
 }
-#contact::before{
+
+#contact::before {
     content: "";
     position: absolute;
     top: 0;
