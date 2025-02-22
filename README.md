@@ -1,1 +1,1 @@
-https://github.com/thedeba/deba-portfolio
+https://thedeba.github.io/deba-portfolio
